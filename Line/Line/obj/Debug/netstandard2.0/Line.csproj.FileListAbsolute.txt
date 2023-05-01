@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Line\Line\Line\bin\Debug\netstandard2.0\Line.deps.json
+C:\Users\User\source\repos\Line\Line\Line\bin\Debug\netstandard2.0\Line.dll
+C:\Users\User\source\repos\Line\Line\Line\bin\Debug\netstandard2.0\Line.pdb
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\Line.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\Line.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\Line.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\Line.AssemblyInfo.cs
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\Line.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\Line.dll
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\refint\Line.dll
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\Line.pdb
+C:\Users\User\source\repos\Line\Line\Line\obj\Debug\netstandard2.0\ref\Line.dll

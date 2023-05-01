@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Line.MainPage">
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 1" Clicked="OnButton1Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress1, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar1" Progress="{Binding Path=Progress1}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 2" Clicked="OnButton2Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress2, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar2" Progress="{Binding Path=Progress2}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 3" Clicked="OnButton3Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress3, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar3" Progress="{Binding Path=Progress3}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 4" Clicked="OnButton4Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress4, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar4" Progress="{Binding Path=Progress4}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 5" Clicked="OnButton5Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress5, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar5" Progress="{Binding Path=Progress5}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 6" Clicked="OnButton6Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress6, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar6" Progress="{Binding Path=Progress6}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 7" Clicked="OnButton7Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress7, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar7" Progress="{Binding Path=Progress7}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 8" Clicked="OnButton8Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress8, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar8" Progress="{Binding Path=Progress8}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 9" Clicked="OnButton9Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress9, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar9" Progress="{Binding Path=Progress9}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 10" Clicked="OnButton10Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress10, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar10" Progress="{Binding Path=Progress10}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 11" Clicked="OnButton11Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress11, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar11" Progress="{Binding Path=Progress11}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 12" Clicked="OnButton12Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress12, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar12" Progress="{Binding Path=Progress12}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Упражнение 13" Clicked="OnButton13Clicked" WidthRequest="140"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="{Binding Path=Progress13, StringFormat='{0:P0}'}" />
+                <ProgressBar x:Name="ProgressBar13" Progress="{Binding Path=Progress13}" ProgressColor="Green" WidthRequest="220"/>
+            </StackLayout>
+        </StackLayout>
+        <!-- Repeat this pattern for each button/progress bar pair -->
+    </StackLayout>
+</ContentPage>
